@@ -51,3 +51,93 @@ header a:hover {
   color: var(--c4);
   transition: 0.3s;
 }
+
+/* *********************** Main *********************** */
+
+main {
+  max-width: 1160px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 140px;
+  position: relative;
+}
+
+main img {
+  max-width: 360px;
+  animation: fadeIn linear 0.05s;
+  -webkit-animation: fadeIn linear 0.2s;
+  -moz-animation: fadeIn linear 0.5s;
+  -o-animation: fadeIn linear 0.5ss;
+  -ms-animation: fadeIn linear 0.5s;
+}
+
+main h1 {
+  font-size: 4.5rem;
+}
+
+main p {
+  margin-top: 30px;
+  font-size: 1.5rem;
+  color: var(--c5);
+}
+.main-infos {
+  max-width: 505px;
+  animation: fadeIn linear 0.05s;
+  -webkit-animation: fadeIn linear 0.5s;
+  -moz-animation: fadeIn linear 0.5s;
+  -o-animation: fadeIn linear 0.5ss;
+  -ms-animation: fadeIn linear 0.5s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.detalhe {
+  position: absolute;
+  top: 88px;
+  left: 455px;
+  z-index: -1;
+}
