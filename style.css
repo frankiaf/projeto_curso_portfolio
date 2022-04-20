@@ -1,0 +1,53 @@
+@import url("https://use.typekit.net/ngo6kcq.css");
+
+:root {
+  --main_font_regular: fira-sans, sans-serif;
+  --c1: #f5f5f5;
+  --c2: #f0f0f0;
+  --c3: #e0e0e0;
+  --c4: #a3a3a3;
+  --c5: #525252;
+  --c6: #141414;
+  --c7: #000000;
+}
+
+body,
+ul,
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+  font-family: var(--main_font_regular);
+}
+
+/* *********************** Menu *********************** */
+
+header {
+  margin: 0 auto;
+  max-width: 1160px;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding-right: 20px;
+  height: 140px;
+  align-content: center;
+  gap: 40px;
+}
+
+header a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: var(--c7);
+}
+
+header a:hover {
+  text-decoration: none;
+  color: var(--c4);
+  transition: 0.3s;
+}
