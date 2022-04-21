@@ -16,6 +16,7 @@ ul,
 h1,
 h2,
 h3,
+h4,
 p {
   margin: 0;
   padding: 0;
@@ -74,6 +75,7 @@ main img {
 
 main h1 {
   font-size: 4.5rem;
+  line-height: 5.3rem;
 }
 
 main p {
@@ -81,6 +83,14 @@ main p {
   font-size: 1.5rem;
   color: var(--c5);
 }
+
+.detalhe {
+  position: absolute;
+  top: 75px;
+  left: 455px;
+  z-index: -1;
+}
+
 .main-infos {
   max-width: 505px;
   animation: fadeIn linear 0.05s;
@@ -135,9 +145,100 @@ main p {
   }
 }
 
-.detalhe {
+/* *********************** Section *********************** */
+
+.experiencia {
+  margin: 120px auto 0 auto;
+  max-width: 1160px;
+  display: grid;
+  grid-template-columns: 358px auto;
+  height: 500px;
+  gap: 140px;
+  position: relative;
+}
+
+.experiencia h1 {
+  font-size: 9rem;
+  word-wrap: break-word;
+  color: var(--c3);
+}
+
+.container_exp p {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  max-width: 524px;
+  margin-bottom: 60px;
+}
+
+.retangulo_exp {
+  display: flex;
+  gap: 50px;
+  padding: 20px;
+  box-sizing: border-box;
+  height: 140px;
+  max-width: 640px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  background-color: var(--c1);
+}
+
+.retangulo_exp::before {
+  content: "";
+
+  background-image: url(assets/Rectangle.svg);
+  background-repeat: no-repeat;
   position: absolute;
-  top: 88px;
-  left: 455px;
-  z-index: -1;
+  margin-left: -25px;
+  margin-top: -1px;
+  width: 4px;
+  height: 20px;
+}
+
+.ano_bikcraft {
+  position: absolute;
+  top: 202px;
+  left: 430px;
+  color: var(--c5);
+}
+
+.ano_surfbot {
+  position: absolute;
+  top: 358px;
+  left: 410px;
+  color: var(--c5);
+}
+
+.ano_brafe {
+  position: absolute;
+  top: 520px;
+  left: 430px;
+  color: var(--c5);
+}
+
+.retangulo_exp p {
+  font-size: 14px;
+  line-height: 20px;
+  width: 325px;
+  margin-top: 10px;
+}
+
+.retangulo_exp a {
+  padding: 6px 10px;
+  border-radius: 5px;
+  background-color: white;
+  text-decoration: none;
+  color: var(--c7);
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.retangulo_exp a:hover {
+  padding: 6px 10px;
+  border-radius: 5px;
+  background-color: var(--c7);
+  text-decoration: none;
+  color: var(--c1);
+  margin-top: 10px;
+  display: inline-block;
+  transition: 0.4s;
 }
