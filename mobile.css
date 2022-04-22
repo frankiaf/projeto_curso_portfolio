@@ -1,6 +1,6 @@
-  /* *********************** Main *********************** */
-  
-  @media (max-width: 1030px) {
+/* *********************** Main *********************** */
+
+@media (max-width: 1030px) {
   main {
     margin: 0 auto;
     align-items: center;
@@ -12,7 +12,7 @@
 
   .main-infos {
     margin: 0 auto;
-    padding:  0 40px;
+    padding: 0 40px;
     max-width: 505px;
     animation: fadeIn linear 0.05s;
     -webkit-animation: fadeIn linear 0.5s;
@@ -22,43 +22,52 @@
   }
 
   .main-infos h1::before {
-      content: "";
-      background-image: url(assets/detalhe.svg);
-      background-repeat: no-repeat;
-      width: 140px;
-      height: 120px;
-      position: absolute;
-      z-index: -1;
-    margin-left: -40px ;
-    margin-top: -30px;  
+    content: "";
+    background-image: url(assets/detalhe.svg);
+    background-repeat: no-repeat;
+    width: 140px;
+    height: 120px;
+    position: absolute;
+    z-index: -1;
+    margin-left: -40px;
+    margin-top: -30px;
+  }
+}
 
+@media (max-width: 450px) {
+  header ul {
+    height: 80px;
   }
 
-  @media (max-width: 400px) {
-    main h1 {
-        font-size: 2.5rem;
-        line-height: 2.8rem;
-      }
-
-      main p {
-        margin-top: 30px;
-        font-size: 1rem;
-        color: var(--c5);
-      }
-
-      .main-infos h1::before {
-        content: "";
-        background-image: url(assets/detalhe_mobile.svg);
-
-      margin-left: -20px ;
-      margin-top: -15px;  
-  
-    }
-      
-    header ul {
-        justify-content: center;
-        padding-right: 0px;
-        flex-wrap: wrap;
-        gap: 20px;
-      }
+  main h1 {
+    font-size: 2.5rem;
+    line-height: 2.5rem;
   }
+
+  main p {
+    margin-top: 30px;
+    font-size: 1rem;
+    color: var(--c5);
+  }
+
+  .main-infos {
+    margin: 0;
+    padding: 30px;
+    max-width: 250px;
+    animation: fadeIn linear 0.05s;
+  }
+
+  .main-infos h1::before {
+    content: "";
+    background-image: url(assets/detalhe_mobile.svg);
+    margin-left: -20px;
+    margin-top: -15px;
+  }
+
+  header ul {
+    justify-content: center;
+    padding-right: 0px;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+}
