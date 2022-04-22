@@ -1,0 +1,43 @@
+  /* *********************** Main *********************** */
+  
+  @media (max-width: 1030px) {
+  main {
+    margin: 0 auto;
+    align-items: center;
+  }
+
+  main img {
+    display: none;
+  }
+
+  .main-infos {
+    margin: 0 auto;
+    padding: 60px;
+    max-width: 505px;
+    animation: fadeIn linear 0.05s;
+    -webkit-animation: fadeIn linear 0.5s;
+    -moz-animation: fadeIn linear 0.5s;
+    -o-animation: fadeIn linear 0.5ss;
+    -ms-animation: fadeIn linear 0.5s;
+  }
+
+  .main-infos h1::before {
+      content: "";
+      background-image: url(assets/detalhe.svg);
+      background-repeat: no-repeat;
+      width: 140px;
+      height: 120px;
+      position: absolute;
+      z-index: -1;
+    margin-left: -40px ;
+    margin-top: -30px;  
+
+  }
+
+  @media (max-width: 400px) {
+    header ul {
+        margin-left: 70px;
+        justify-content: start;
+      }
+  }
+  
