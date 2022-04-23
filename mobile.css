@@ -177,4 +177,18 @@
     max-width: 250px;
     margin-top: 10px;
   }
+
+  .ano_bikcraft {
+    display: none;
+  }
+  
+  .ano_surfbot {
+    display: none;
+  }
+  
+  .ano_brafe {
+    display: none;
+  }
+
+  
 }
