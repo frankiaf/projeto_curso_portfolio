@@ -1,2 +1,2 @@
-# projeto_curso_portfolio
-Projeto criado no curso de HTML e CSS.
+# Projeto Template Portfólio 
+Projeto criado no curso Origamid utilizando os conhecimentos em HTML e CSS.
