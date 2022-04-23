@@ -1,0 +1,406 @@
+/* *********************** Main *********************** */
+
+@media (max-width: 1140px) {
+  main {
+    margin: 0 auto;
+    align-items: center;
+  }
+
+  main img {
+    display: none;
+  }
+
+  .main-infos {
+    margin: 0 auto;
+    padding: 0 40px;
+    max-width: 505px;
+    animation: fadeIn linear 0.05s;
+    -webkit-animation: fadeIn linear 0.5s;
+    -moz-animation: fadeIn linear 0.5s;
+    -o-animation: fadeIn linear 0.5ss;
+    -ms-animation: fadeIn linear 0.5s;
+  }
+
+  .main-infos h1::before {
+    content: "";
+    background-image: url(assets/detalhe.svg);
+    background-repeat: no-repeat;
+    width: 140px;
+    height: 120px;
+    position: absolute;
+    z-index: -1;
+    margin-left: -40px;
+    margin-top: -30px;
+  }
+
+  /* *********************** Section Experiência *********************** */
+
+  .experiencia {
+    margin: 120px auto 0 auto;
+    max-width: 500px;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 1fr 1fr;
+    height: 1000px;
+    gap: 40px;
+    position: relative;
+  }
+
+  .experiencia h1 {
+    font-size: 4rem;
+
+    color: var(--c3);
+  }
+
+  .container_exp p {
+    font-size: 1.1rem;
+    line-height: 1.7rem;
+    max-width: 550px;
+    margin-bottom: 60px;
+  }
+
+  .retangulo_exp {
+    display: flex;
+    gap: 50px;
+    padding: 20px;
+    box-sizing: content-box;
+    height: 180px;
+    max-width: 640px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background-color: var(--c1);
+  }
+
+  .ano_bikcraft {
+    position: absolute;
+    top: 287px;
+    left: -80px;
+    color: var(--c5);
+  }
+
+  .ano_surfbot {
+    position: absolute;
+    top: 530px;
+    left: -108px;
+    color: var(--c5);
+  }
+
+  .ano_brafe {
+    position: absolute;
+    top: 765px;
+    left: -80px;
+    color: var(--c5);
+  }
+
+  /* *********************** Section Formação *********************** */
+
+  .formacao {
+    max-width: 100%;
+    margin-top: 30px;
+    height: 1090px;
+
+    background-color: var(--c6);
+  }
+
+  .container_formacao {
+    margin: 0 auto;
+    max-width: 500px;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 1fr 1fr;
+    height: 700px;
+    gap: 30px;
+    position: relative;
+  }
+
+  .formacao h1 {
+    font-size: 4rem;
+    word-wrap: break-word;
+    color: var(--c7);
+    margin-top: 100px;
+  }
+
+  .container_form {
+    margin-top: 0px;
+  }
+
+  .container_form p {
+    color: var(--c4);
+    font-size: 1.5rem;
+    line-height: 2rem;
+    max-width: 550px;
+    margin-bottom: 60px;
+  }
+
+  .retangulo_form {
+    width: 188px;
+    height: 190px;
+    background-color: var(--c7);
+    border-radius: 5px;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  .retangulo_form p {
+    font-size: 0.9rem;
+    margin: 0;
+  }
+
+  .cursos_flex p {
+    font-size: 1.2rem;
+    padding: 20px 0;
+    margin: 0;
+  }
+
+  .idiomas p {
+    font-size: 1.2rem;
+    margin: 30px 0 20px 0;
+    color: var(--c1);
+  }
+
+  /* *********************** Footer *********************** */
+
+  footer {
+    margin-top: 5px;
+    max-width: 100%;
+    height: 550px;
+    background-color: var(--c7);
+    position: relative;
+  }
+
+  .container_footer {
+    margin: 0 auto;
+    max-width: 1000px;
+    height: 80px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    gap: 70px;
+    padding-top: 100px;
+  }
+
+  .container_footer p {
+    text-align: center;
+    color: var(--c4);
+    max-width: 80%;
+    font-size: 1.2rem;
+    line-height: 2rem;
+  }
+
+  .container_footer h3 {
+    color: var(--c1);
+    font-size: 1.55rem;
+    margin-bottom: 30px;
+    text-align: right;
+  }
+
+  .container_footer::before {
+    display: none;
+  }
+}
+
+/* *********************** Main *********************** */
+@media (max-width: 780px) {
+  header ul {
+    height: 80px;
+  }
+
+  main h1 {
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+  }
+
+  main p {
+    margin-top: 30px;
+    font-size: 1rem;
+    color: var(--c5);
+  }
+
+  .main-infos {
+    margin: 0 auto;
+    padding: 30px;
+    max-width: 300px;
+    animation: fadeIn linear 0.05s;
+  }
+
+  .main-infos h1::before {
+    content: "";
+    background-image: url(assets/detalhe_mobile.svg);
+    margin-left: -20px;
+    margin-top: -15px;
+  }
+
+  header ul {
+    justify-content: center;
+    padding-right: 0px;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  /* *********************** Section Experiência *********************** */
+
+  .experiencia {
+    margin: 40px auto 0 auto;
+    max-width: 300px;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 1fr 1fr;
+
+    height: 1200px;
+    gap: 30px;
+    position: relative;
+  }
+
+  .experiencia h1 {
+    font-size: 3rem;
+    color: var(--c3);
+  }
+
+  .container_exp p {
+    font-size: 1.1rem;
+    line-height: 1.7rem;
+    max-width: 300px;
+    margin-bottom: 30px;
+  }
+
+  .retangulo_exp {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    padding: 20px;
+    box-sizing: border-box;
+    height: 280px;
+    max-width: 300px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background-color: var(--c1);
+  }
+
+  .retangulo_exp p {
+    font-size: 14px;
+    line-height: 20px;
+    max-width: 250px;
+    margin-top: 10px;
+  }
+
+  .ano_bikcraft {
+    display: none;
+  }
+
+  .ano_surfbot {
+    display: none;
+  }
+
+  .ano_brafe {
+    display: none;
+  }
+
+  /* *********************** Section Formação *********************** */
+
+  .formacao {
+    max-width: 100%;
+    height: 1550px;
+  }
+
+  .container_formacao {
+    margin: 0 auto;
+    max-width: 300px;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 1fr 1fr;
+    height: 700px;
+    gap: 30px;
+    position: relative;
+  }
+
+  .formacao h1 {
+    font-size: 3rem;
+    word-wrap: break-word;
+    color: var(--c7);
+    margin-top: 60px;
+  }
+
+  .container_form {
+    margin-top: 20px;
+    max-width: 300px;
+    box-sizing: content-box;
+  }
+
+  .container_form p {
+    color: var(--c4);
+    font-size: 1.2rem;
+    line-height: 2rem;
+    max-width: 300px;
+    margin-bottom: 14px;
+  }
+
+  .container_flex {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 40px;
+  }
+
+  .retangulo_form {
+    width: 300px;
+    height: 170px;
+    background-color: var(--c7);
+    border-radius: 5px;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  .cursos {
+    margin-top: 60px;
+    margin-left: 40px;
+  }
+
+  .cursos_flex {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 6fr 1fr;
+    gap: 0 10px;
+  }
+
+  .idiomas {
+    margin-top: 60px;
+    margin-left: 40px;
+  }
+
+  /* *********************** Footer *********************** */
+
+  footer {
+    margin-top: 5px;
+    max-width: 100%;
+    height: 500px;
+    background-color: var(--c7);
+    position: relative;
+  }
+
+  .container_footer {
+    margin: 0 auto;
+    max-width: 350px;
+    height: 80px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    gap: 40px;
+    padding-top: 60px;
+  }
+
+  .container_footer p {
+    color: var(--c4);
+    font-size: 1rem;
+    line-height: 2rem;
+  }
+
+  .container_footer h3 {
+    color: var(--c1);
+    font-size: 1.55rem;
+    margin-bottom: 30px;
+    text-align: right;
+  }
+
+}
