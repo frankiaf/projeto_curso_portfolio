@@ -41,8 +41,7 @@
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: 1fr 1fr;
-
-    height: 700px;
+    height: 1000px;
     gap: 40px;
     position: relative;
   }
@@ -91,6 +90,72 @@
     top: 735px;
     left: -80px;
     color: var(--c5);
+  }
+
+  /* *********************** Section Formação *********************** */
+
+  .formacao {
+    max-width: 100%;
+    margin-top: 30px;
+    height: 1090px;
+
+    background-color: var(--c6);
+  }
+
+  .container_formacao {
+    margin: 0 auto;
+    max-width: 500px;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 1fr 1fr;
+    height: 700px;
+    gap: 30px;
+    position: relative;
+  }
+
+  .formacao h1 {
+    font-size: 4rem;
+    word-wrap: break-word;
+    color: var(--c7);
+    margin-top: 100px;
+  }
+
+  .container_form {
+    margin-top: 0px;
+  }
+
+  .container_form p {
+    color: var(--c4);
+    font-size: 1.5rem;
+    line-height: 2rem;
+    max-width: 550px;
+    margin-bottom: 60px;
+  }
+
+  .retangulo_form {
+    width: 188px;
+    height: 190px;
+    background-color: var(--c7);
+    border-radius: 5px;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  .retangulo_form p {
+    font-size: 0.9rem;
+    margin: 0;
+  }
+
+  .cursos_flex p {
+    font-size: 1.2rem;
+    padding: 20px 0;
+    margin: 0;
+  }
+
+  .idiomas p {
+    font-size: 1.2rem;
+    margin: 30px 0 20px 0;
+    color: var(--c1);
   }
 }
 
@@ -141,7 +206,7 @@
     grid-template-columns: auto;
     grid-template-rows: 1fr 1fr;
 
-    height: 700px;
+    height: 1200px;
     gap: 30px;
     position: relative;
   }
@@ -181,14 +246,78 @@
   .ano_bikcraft {
     display: none;
   }
-  
+
   .ano_surfbot {
     display: none;
   }
-  
+
   .ano_brafe {
     display: none;
   }
 
-  
+  /* *********************** Section Formação *********************** */
+
+  .formacao {
+    max-width: 100%;
+    height: 1500px;
+  }
+
+  .container_formacao {
+    margin: 0 auto;
+    max-width: 300px;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 1fr 1fr;
+    height: 700px;
+    gap: 30px;
+    position: relative;
+  }
+
+  .formacao h1 {
+    font-size: 3rem;
+    word-wrap: break-word;
+    color: var(--c7);
+    margin-top: 60px;
+  }
+
+  .container_form p {
+    color: var(--c4);
+    font-size: 1.2rem;
+    line-height: 2rem;
+    max-width: 300px;
+    margin-bottom: 14px;
+  }
+
+  .container_flex {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 40px;
+  }
+
+  .retangulo_form {
+    width: 300px;
+    height: 170px;
+    background-color: var(--c7);
+    border-radius: 5px;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  .cursos {
+    margin-top: 60px;
+    margin-left: 40px;
+  }
+
+  .cursos_flex {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 6fr 1fr;
+    gap: 0 10px;
+  }
+
+  .idiomas {
+    margin-top: 60px;
+    margin-left: 40px;
+  }
 }
