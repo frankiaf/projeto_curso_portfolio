@@ -1,4 +1,10 @@
 # Projeto Template Portfólio 
 Projeto criado no curso Origamid utilizando os conhecimentos em HTML e CSS.
 
-![Git Desktop] (https://github.com/frankiaf/projeto_curso_portfolio/blob/99360c5c4928703955bbc2a969c2cc0169e44e46/desktop.gif)
+- [x] Versão Desktop
+- [x] Versão Responsiva
+
+### Desktop
+
+
+![desktop](https://user-images.githubusercontent.com/87628459/164895755-f9f1fd28-e0d4-4f25-b7c5-33b05cbb75bd.gif)
