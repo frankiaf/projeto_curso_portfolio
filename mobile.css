@@ -1,6 +1,6 @@
 /* *********************** Main *********************** */
 
-@media (max-width: 1030px) {
+@media (max-width: 1140px) {
   main {
     margin: 0 auto;
     align-items: center;
@@ -32,8 +32,69 @@
     margin-left: -40px;
     margin-top: -30px;
   }
+
+  /* *********************** Section Experiência *********************** */
+
+  .experiencia {
+    margin: 120px auto 0 auto;
+    max-width: 500px;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 1fr 1fr;
+
+    height: 700px;
+    gap: 40px;
+    position: relative;
+  }
+
+  .experiencia h1 {
+    font-size: 4rem;
+
+    color: var(--c3);
+  }
+
+  .container_exp p {
+    font-size: 1.1rem;
+    line-height: 1.7rem;
+    max-width: 550px;
+    margin-bottom: 60px;
+  }
+
+  .retangulo_exp {
+    display: flex;
+    gap: 50px;
+    padding: 20px;
+    box-sizing: content-box;
+    height: 180px;
+    max-width: 640px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background-color: var(--c1);
+  }
+
+  .ano_bikcraft {
+    position: absolute;
+    top: 255px;
+    left: -80px;
+    color: var(--c5);
+  }
+
+  .ano_surfbot {
+    position: absolute;
+    top: 495px;
+    left: -108px;
+    color: var(--c5);
+  }
+
+  .ano_brafe {
+    position: absolute;
+    top: 735px;
+    left: -80px;
+    color: var(--c5);
+  }
 }
 
+/* *********************** Main *********************** */
 @media (max-width: 450px) {
   header ul {
     height: 80px;
@@ -51,9 +112,9 @@
   }
 
   .main-infos {
-    margin: 0;
+    margin: 0 auto;
     padding: 30px;
-    max-width: 250px;
+    max-width: 300px;
     animation: fadeIn linear 0.05s;
   }
 
@@ -69,5 +130,51 @@
     padding-right: 0px;
     flex-wrap: wrap;
     gap: 20px;
+  }
+
+  /* *********************** Section Experiência *********************** */
+
+  .experiencia {
+    margin: 40px auto 0 auto;
+    max-width: 300px;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 1fr 1fr;
+
+    height: 700px;
+    gap: 30px;
+    position: relative;
+  }
+
+  .experiencia h1 {
+    font-size: 3rem;
+    color: var(--c3);
+  }
+
+  .container_exp p {
+    font-size: 1.1rem;
+    line-height: 1.7rem;
+    max-width: 300px;
+    margin-bottom: 30px;
+  }
+
+  .retangulo_exp {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    padding: 20px;
+    box-sizing: border-box;
+    height: 280px;
+    max-width: 300px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background-color: var(--c1);
+  }
+
+  .retangulo_exp p {
+    font-size: 14px;
+    line-height: 20px;
+    max-width: 250px;
+    margin-top: 10px;
   }
 }
